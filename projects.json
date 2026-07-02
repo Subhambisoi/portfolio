@@ -1,0 +1,47 @@
+[
+  {
+    "title": "AI Guardian - Intelligent AI Assistant and Security Platform",
+    "description": "A comprehensive AI-powered platform that combines intelligent assistance with security features for digital protection.",
+    "tech": ["Python", "AI/ML", "Security"],
+    "badges": ["AI", "Security", "Python"],
+    "live": "https://ai-guardian-o38i.onrender.com/",
+    "github": "https://github.com/Subhambisoi/ai-guardian",
+    "icon": "assets/icons/security.svg"
+  },
+  {
+    "title": "Weather Forecasting with Voice Assistant",
+    "description": "An interactive weather forecasting application with voice command support for real-time weather updates.",
+    "tech": ["Python", "APIs", "Voice Recognition"],
+    "badges": ["Python", "API", "Voice"],
+    "live": "https://Subhambisoi.github.io/weatherforecasting14/",
+    "github": "https://github.com/Subhambisoi/weather-voice-assistant",
+    "icon": "assets/icons/networking.svg"
+  },
+  {
+    "title": "Railway Ticket Booking System",
+    "description": "A responsive web-based railway ticket booking platform with efficient workflow and clean presentation.",
+    "tech": ["HTML", "CSS", "JavaScript", "SQL"],
+    "badges": ["Web", "JavaScript", "SQL"],
+    "live": "",
+    "github": "https://github.com/Subhambisoi/railway-booking-system",
+    "icon": "assets/icons/python.svg"
+  },
+  {
+    "title": "Tic-Tac-Toe Game",
+    "description": "A neat command-line and browser-based Tic-Tac-Toe game built with clean logic and UI patterns.",
+    "tech": ["Python", "JavaScript"],
+    "badges": ["Game", "Python", "JS"],
+    "live": "",
+    "github": "https://github.com/Subhambisoi/tic-tac-toe-game",
+    "icon": "assets/icons/python.svg"
+  },
+  {
+    "title": "KFC Food Billing System",
+    "description": "A restaurant billing and order management system that generates invoices and tracks sales.",
+    "tech": ["Python", "SQL", "CLI"],
+    "badges": ["Automation", "Python", "Database"],
+    "live": "",
+    "github": "https://github.com/Subhambisoi/kfc-billing-system",
+    "icon": "assets/icons/security.svg"
+  }
+]

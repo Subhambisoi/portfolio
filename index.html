@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Subham Bisoi - AI Engineer, Cybersecurity Enthusiast, and Networking Professional portfolio">
+    <meta name="keywords" content="AI Engineer, Cybersecurity, Networking, Software Engineer, Computer Science">
+    <meta name="author" content="Subham Bisoi">
+    <title>Subham Bisoi | AI Engineer & Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">SB</a>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <span class="toggle-icon sun">☀️</span>
+                    <span class="toggle-icon moon">🌙</span>
+                    <span class="toggle-slider"></span>
+                </button>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="bubbles" aria-hidden="true">
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+            </div>
+            <div class="hero-image-wrap">
+                <img id="profile-photo" src="profile.jpg" alt="Subham Bisoi" title="Profile photo of Subham Bisoi" class="hero-profile-photo" loading="lazy">
+                <div id="top-badge" class="hero-image-badge"><i class="fas fa-award"></i> Top Performer</div>
+            </div>
+            <h1 class="hero-name">Subham Bisoi</h1>
+            <p class="hero-title">I am a <span id="typing-text" class="typing"></span><span class="cursor">|</span></p>
+            <p class="hero-summary">
+                Aspiring AI Engineer with a strong interest in Artificial Intelligence, Prompt Engineering, Cybersecurity, and Networking.
+                Passionate about designing effective AI prompts, building practical projects, and solving real-world problems using modern technologies.
+                Continuously learning and improving my skills to develop secure, intelligent, and impactful solutions.
+            </p>
+            <div class="hero-actions">
+                <a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+                <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+            </div>
+            <div class="hero-badges">
+                <span class="hero-badge">AI Research</span>
+                <span class="hero-badge">Cybersecurity</span>
+                <span class="hero-badge">Prompt Engineering</span>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/Subhambisoi" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/subham-bisoi-2a3166315?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:babubisoi30@gmail.com" aria-label="Email Contact"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am Subham Bisoi, a Computer Science student passionate about Artificial Intelligence, Prompt Engineering, Cybersecurity, Networking, and Software Development. I enjoy building practical projects that solve real-world problems while continuously expanding my technical knowledge. My goal is to become a skilled AI Engineer by combining innovation, security, and modern technologies to create impactful solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-grid">
+                <article class="skill-card" aria-labelledby="skill-card-cybersecurity">
+                    <div class="skill-card-header">
+                        <span class="skill-card-icon"><i class="fas fa-shield-alt"></i></span>
+                        <div>
+                            <h3 id="skill-card-cybersecurity">Cybersecurity</h3>
+                            <p>Foundational security knowledge with practical awareness across systems and networks.</p>
+                        </div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Network Security</li>
+                        <li>TCP/IP & OSI Model</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Nmap (Host Discovery, Port Scanning, Service Detection)</li>
+                        <li>Basic Web Application Security</li>
+                        <li>OWASP Top 10 (Basic Understanding)</li>
+                        <li>Incident Response Fundamentals</li>
+                    </ul>
+                    <div class="skill-progress">
+                        <div class="progress-row"><span>Network Security</span><span>90%</span></div>
+                        <div class="progress-bar"><span style="width: 90%"></span></div>
+                        <div class="progress-row"><span>Vulnerability Assessment</span><span>82%</span></div>
+                        <div class="progress-bar"><span style="width: 82%"></span></div>
+                        <div class="progress-row"><span>Incident Response</span><span>78%</span></div>
+                        <div class="progress-bar"><span style="width: 78%"></span></div>
+                    </div>
+                </article>
+                <article class="skill-card" aria-labelledby="skill-card-networking">
+                    <div class="skill-card-header">
+                        <span class="skill-card-icon"><i class="fas fa-network-wired"></i></span>
+                        <div>
+                            <h3 id="skill-card-networking">Networking</h3>
+                            <p>Key networking concepts for reliable infrastructure design and troubleshooting.</p>
+                        </div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>IP Addressing</li>
+                        <li>Subnetting</li>
+                        <li>DNS</li>
+                        <li>DHCP</li>
+                        <li>HTTP/HTTPS</li>
+                        <li>Routing & Switching Basics</li>
+                    </ul>
+                    <div class="skill-progress">
+                        <div class="progress-row"><span>IP Addressing</span><span>92%</span></div>
+                        <div class="progress-bar"><span style="width: 92%"></span></div>
+                        <div class="progress-row"><span>Subnetting</span><span>85%</span></div>
+                        <div class="progress-bar"><span style="width: 85%"></span></div>
+                        <div class="progress-row"><span>Routing Basics</span><span>80%</span></div>
+                        <div class="progress-bar"><span style="width: 80%"></span></div>
+                    </div>
+                </article>
+                <article class="skill-card" aria-labelledby="skill-card-programming">
+                    <div class="skill-card-header">
+                        <span class="skill-card-icon"><i class="fas fa-code"></i></span>
+                        <div>
+                            <h3 id="skill-card-programming">Programming & AI</h3>
+                            <p>Modern development and AI tooling skills with a focus on prompt engineering.</p>
+                        </div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git & GitHub</li>
+                        <li>Prompt Engineering</li>
+                        <li>AI Tools (ChatGPT, GitHub Copilot, Gemini)</li>
+                    </ul>
+                    <div class="skill-progress">
+                        <div class="progress-row"><span>Python</span><span>90%</span></div>
+                        <div class="progress-bar"><span style="width: 90%"></span></div>
+                        <div class="progress-row"><span>JavaScript</span><span>80%</span></div>
+                        <div class="progress-bar"><span style="width: 80%"></span></div>
+                        <div class="progress-row"><span>Prompt Engineering</span><span>84%</span></div>
+                        <div class="progress-bar"><span style="width: 84%"></span></div>
+                    </div>
+                </article>
+                <article class="skill-card" aria-labelledby="skill-card-professional">
+                    <div class="skill-card-header">
+                        <span class="skill-card-icon"><i class="fas fa-briefcase"></i></span>
+                        <div>
+                            <h3 id="skill-card-professional">Professional Skills</h3>
+                            <p>Soft skills and workplace strengths that support collaboration and growth.</p>
+                        </div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Fast Typing</li>
+                        <li>Problem Solving</li>
+                        <li>Analytical Thinking</li>
+                        <li>Communication</li>
+                        <li>Team Collaboration</li>
+                        <li>Continuous Learning</li>
+                        <li>Time Management</li>
+                        <li>Documentation</li>
+                    </ul>
+                    <div class="skill-progress">
+                        <div class="progress-row"><span>Communication</span><span>88%</span></div>
+                        <div class="progress-bar"><span style="width: 88%"></span></div>
+                        <div class="progress-row"><span>Problem Solving</span><span>85%</span></div>
+                        <div class="progress-bar"><span style="width: 85%"></span></div>
+                        <div class="progress-row"><span>Time Management</span><span>82%</span></div>
+                        <div class="progress-bar"><span style="width: 82%"></span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid" id="projects-grid"></div>
+            <div class="projects-loading" id="projects-loading">Loading projects...</div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h3>Spoken English Instructor</h3>
+                    <p class="experience-date">2023 - Present</p>
+                    <p>Teaching spoken English and basic fundamental skills to students, focusing on communication and language development.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Technical Skills Trainer</h3>
+                    <p class="experience-date">2023</p>
+                    <p>Providing training in fundamental computer and technical concepts to beginners and junior learners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <p class="education-institution">Gandhi Institute for Education and Technology (GIET), Gangapada, Bhubaneswar</p>
+                    <p class="education-date">Currently Pursuing - Computer Science & Engineering</p>
+                </div>
+                <div class="education-item">
+                    <h3>Diploma in Engineering</h3>
+                    <p class="education-institution">Board of Secondary Education (BOSE), Cuttack</p>
+                    <p class="education-date">Passed with 87%</p>
+                </div>
+                <div class="education-item">
+                    <h3>Secondary Education (10th)</h3>
+                    <p class="education-institution">Ravenshaw Collegiate School, Cuttack</p>
+                    <p class="education-date">Passed with 79%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <h3>CISCO Networking</h3>
+                    <p class="certification-issuer">CISCO</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Microsoft Graphics</h3>
+                    <p class="certification-issuer">Microsoft</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Coursera Programming</h3>
+                    <p class="certification-issuer">Coursera</p>
+                </div>
+                <div class="certification-card">
+                    <h3>ESDP AIML Course</h3>
+                    <p class="certification-issuer">CTTC</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Python Course</h3>
+                    <p class="certification-issuer">iFIT</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Mindbrain Innovation - Cybersecurity</h3>
+                    <p class="certification-issuer">Mindbrain Innovation</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Full Stack Development</h3>
+                    <p class="certification-issuer">Techzex Pvt Ltd</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <p>View and download my complete resume to learn more about my experience and qualifications.</p>
+                </div>
+                <a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-grid">
+                    <div class="contact-info-group">
+                        <div class="contact-info-card">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <h3>Email</h3>
+                            <a href="mailto:babubisoi30@gmail.com">babubisoi30@gmail.com</a>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <h3>Phone</h3>
+                            <a href="tel:+919938455077">+91 9938455077</a>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon"><i class="fab fa-github"></i></div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Subhambisoi" target="_blank" rel="noopener noreferrer">github.com/Subhambisoi</a>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/subham-bisoi-2a3166315?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">linkedin.com/in/subham-bisoi-2a3166315</a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-heading">
+                            <h3>Send a message</h3>
+                            <p>Share your project ideas or ask about collaboration.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Tell me about your project or question" required></textarea>
+                        </div>
+                        <div id="contact-form-message" class="form-message" aria-live="polite"></div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Subham Bisoi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Profile Modal (opens when clicking profile photo or badge) -->
+    <div id="profile-modal" class="modal" aria-hidden="true">
+        <div class="modal-overlay" data-close></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" aria-label="Close profile">&times;</button>
+            <div class="modal-body">
+                <div class="modal-profile">
+                    <img src="profile.jpg" alt="Subham Bisoi" class="modal-profile-photo">
+                    <h3 id="modal-title">Subham Bisoi</h3>
+                    <p class="modal-role">AI Engineer • Cybersecurity Enthusiast • Network Engineer</p>
+                    <p class="modal-bio">I build secure, reliable AI-driven solutions and love exploring network security and prompt engineering. Let's collaborate!</p>
+                    <div class="modal-links">
+                        <a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+                        <a href="#projects" class="btn btn-secondary" data-close>Explore Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
