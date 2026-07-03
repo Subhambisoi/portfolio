@@ -1,8 +1,8 @@
 [
   {
-    "title": "AI Guardian - Intelligent AI Assistant and Security Platform",
-    "description": "A comprehensive AI-powered platform that combines intelligent assistance with security features for digital protection.",
-    "tech": ["Python", "AI/ML", "Security"],
+    "title": "AI Guardian - Voice-Enabled Cybersecurity Assistant",
+    "description": "An AI-powered cybersecurity assistant with voice interaction to detect system vulnerabilities, provide security recommendations, and answer cyber-related queries.",
+    "tech": ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLite/MySQL", "Speech Recognition", "Text-to-Speech", "AI API"],
     "badges": ["AI", "Security", "Python"],
     "live": "https://ai-guardian-o38i.onrender.com/",
     "github": "https://github.com/Subhambisoi/ai-guardian",
@@ -10,8 +10,8 @@
   },
   {
     "title": "AI Interviewer & ATS Optimizer",
-    "description": "An AI-powered platform that creates interview questions, runs mock interviews, and evaluates resumes for ATS compatibility.",
-    "tech": ["Python", "Flask", "AI APIs", "SQLite"],
+    "description": "AI-based platform that generates interview questions, conducts mock interviews, and analyzes resumes for ATS compatibility.",
+    "tech": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Gen AI", "AI API", "SQLite/MySQL"],
     "badges": ["AI", "Resume", "Interview"],
     "live": "",
     "github": "https://github.com/Subhambisoi",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Password Strength Analyzer",
-    "description": "A security-focused web tool that rates password strength, highlights weak patterns, and estimates resistance to brute-force attacks.",
+    "description": "Security tool that evaluates password strength, identifies weak patterns, and estimates resistance to brute-force attacks.",
     "tech": ["Python", "Flask", "HTML", "CSS", "JavaScript"],
     "badges": ["Security", "Web", "Python"],
     "live": "",
@@ -27,18 +27,18 @@
     "icon": "assets/icons/security.svg"
   },
   {
-    "title": "Weather Forecasting with Voice Assistant",
-    "description": "An interactive weather forecasting application with voice command support for real-time weather updates.",
-    "tech": ["Python", "APIs", "Voice Recognition"],
+    "title": "Weather Forecasting System",
+    "description": "A real-time weather application with AI voice assistance for location-based weather updates and forecasts.",
+    "tech": ["Python", "Flask", "Weather API", "HTML", "CSS", "JavaScript", "Speech Recognition"],
     "badges": ["Python", "API", "Voice"],
     "live": "https://Subhambisoi.github.io/weatherforecasting14/",
     "github": "https://github.com/Subhambisoi/weather-voice-assistant",
     "icon": "assets/icons/networking.svg"
   },
   {
-    "title": "Railway Ticket Booking System",
-    "description": "A responsive web-based railway ticket booking platform with efficient workflow and clean presentation.",
-    "tech": ["HTML", "CSS", "JavaScript", "SQL"],
+    "title": "Railway Ticket Management System",
+    "description": "A database-driven application for ticket booking, seat availability checking, passenger records, and train schedule management.",
+    "tech": ["Python/Java", "MySQL", "Flask / Java Swing"],
     "badges": ["Web", "JavaScript", "SQL"],
     "live": "",
     "github": "https://github.com/Subhambisoi/railway-booking-system",
@@ -46,17 +46,17 @@
   },
   {
     "title": "Tic-Tac-Toe Game",
-    "description": "A neat command-line and browser-based Tic-Tac-Toe game built with clean logic and UI patterns.",
-    "tech": ["Python", "JavaScript"],
+    "description": "An interactive Tic-Tac-Toe game implementing game logic, user interaction, and win/draw detection.",
+    "tech": ["Python/Java", "Tkinter / HTML", "CSS", "JavaScript"],
     "badges": ["Game", "Python", "JS"],
     "live": "",
     "github": "https://github.com/Subhambisoi/tic-tac-toe-game",
     "icon": "assets/icons/python.svg"
   },
   {
-    "title": "KFC Food Billing System",
-    "description": "A restaurant billing and order management system that generates invoices and tracks sales.",
-    "tech": ["Python", "SQL", "CLI"],
+    "title": "KFC Billing System",
+    "description": "A billing application for order management, automatic bill generation, and receipt printing.",
+    "tech": ["Python", "MySQL/SQLite", "Tkinter (Desktop) / Flask", "HTML", "CSS", "JavaScript (Web)"],
     "badges": ["Automation", "Python", "Database"],
     "live": "",
     "github": "https://github.com/Subhambisoi/kfc-billing-system",
