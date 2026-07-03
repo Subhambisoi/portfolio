@@ -9,6 +9,24 @@
     "icon": "assets/icons/security.svg"
   },
   {
+    "title": "AI Interviewer & ATS Optimizer",
+    "description": "An AI-powered platform that creates interview questions, runs mock interviews, and evaluates resumes for ATS compatibility.",
+    "tech": ["Python", "Flask", "AI APIs", "SQLite"],
+    "badges": ["AI", "Resume", "Interview"],
+    "live": "",
+    "github": "https://github.com/Subhambisoi",
+    "icon": "assets/icons/python.svg"
+  },
+  {
+    "title": "Password Strength Analyzer",
+    "description": "A security-focused web tool that rates password strength, highlights weak patterns, and estimates resistance to brute-force attacks.",
+    "tech": ["Python", "Flask", "HTML", "CSS", "JavaScript"],
+    "badges": ["Security", "Web", "Python"],
+    "live": "",
+    "github": "https://github.com/Subhambisoi",
+    "icon": "assets/icons/security.svg"
+  },
+  {
     "title": "Weather Forecasting with Voice Assistant",
     "description": "An interactive weather forecasting application with voice command support for real-time weather updates.",
     "tech": ["Python", "APIs", "Voice Recognition"],
