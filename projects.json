@@ -1,5 +1,14 @@
 [
   {
+    "title": "CampusRAG - AI College Assistant",
+    "description": "An intelligent Retrieval-Augmented Generation (RAG) assistant for college query resolution, automated document search, and instant academic assistance.",
+    "tech": ["Python", "FastAPI", "React", "LangGraph / RAG", "Gemini AI", "Vector DB", "Google Cloud Run"],
+    "badges": ["AI", "RAG", "Cloud"],
+    "live": "https://campusrag-ai-college-assistant-218933420802.asia-southeast1.run.app",
+    "github": "https://github.com/Subhambisoi/CampusRAG",
+    "icon": "assets/icons/api.svg"
+  },
+  {
     "title": "AI Guardian - Voice-Enabled Cybersecurity Assistant",
     "description": "An AI-powered cybersecurity assistant with voice interaction to detect system vulnerabilities, provide security recommendations, and answer cyber-related queries.",
     "tech": ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLite/MySQL", "Speech Recognition", "Text-to-Speech", "AI API"],
